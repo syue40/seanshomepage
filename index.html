@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sean's Home Page</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="img/favicon.png" rel="icon">
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/pattern.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+  <!-- Navbar -->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#work">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Home/Page Top, HELLO WORLD! WE ARE LIVE-->
+  <div id="home" class="intro route bg-image" style="background-image: url(img/background_w1.jpg);" >
+    
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h1 class="intro-title mb-5" id="glow_title" style="opacity: 1;"> Hello, World! I'm Sean Yue. </h1>
+          <p class="intro-subtitle" style="opacity: 1;"><b>I am a</b><span id="the_text"></span></p>
+        </div>
+      </div>
+    </div>
+    <div class="overlay "></div>
+    <!--Previously a video 
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="img/vid_1.webm" type="video/webm">
+    </video>
+    -->
+  </div>
+
+  <!--About Me-->
+  <section  class="about-mf sect-pt4 route">
+    <div class="container" id="about">
+      <div class="row">
+          <div class="box-shadow-full">
+            <div class="row">
+
+              <!--Left Hand Side Elements-->
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-sm-6">
+
+                    <!--Picture-->
+                    <div class="about-img" >
+                      <img src="img/profile-1.jpg" class="img-fluid rounded shadow p-1" alt="">
+                    </div>
+                  </div>
+
+                  <!--Basic Details-->
+                  <div class="col-sm-6">
+                    <div class="about-info">
+                      <p><span class="title-top">Name: </span> <span>Sean Z. Yue</span></p>
+                      <p><span class="title-top">Profile: </span> <span>Student, BCIT CST Term 2</span></p>
+                      <p><span class="title-top">Email: </span> <span>syue11@my.bcit.ca</span></p>
+                      <p><span class="title-top">Favorite Food: </span> <span> Ramen</span></p>
+                    </div>
+                  </div>
+                </div>
+
+                <!--Languages, Frameworks, Tools-->
+                <div class="skill-bars shadow p-3 mt-3 bg-white rounded" style= "background-color: white;">
+                  <div class="info"><h5><b>Languages:</b></h5></div>
+                  <div class="bar">
+                    <div class="info">
+                      <span><span class="iconify" data-icon="logos:python" data-inline="false"></span></span> Python</span>
+                    </div>
+                    <div class="progress-line html">
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <div class="info">
+                      <span><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false"></span><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false"></span> </span>HTML/CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <div class="info">
+                      <span><span class="iconify" data-icon="logos:javascript" data-inline="false"> </span>  Javascript</span>
+                    </div>
+                    <div class="progress-line python">
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <div class="info">
+                      <span><span class="iconify" data-icon="logos:java" data-inline="false"></span> Java</span>
+                    </div>
+                    <div class="progress-line java">
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <div class="info">
+                      <span><span class="iconify" data-icon="vscode-icons:file-type-sql" data-inline="false"></span> SQL</span>
+                    </div>
+                    <div class="progress-line mysql">
+                      <span></span>
+                    </div>
+                    <div>
+                      <div style="margin-top: 8%">
+                        <h5><b>I also have experience with:</b></h5>
+                        <ul class="col-sm-3" style="display: inline-block;">
+                          <li>Node.js</li>
+                          <li>Bootstrap</li>
+                          <li>jQuery</li>
+                        </ul>
+                        <ul class="col-sm-3" style="display: inline-block;">
+                          <li>Firebase</li>
+                          <li>MongoDB</li>
+                          <li>Node.js</li>
+                        </ul>
+                        <ul class="col-sm-3" style="display: inline-block;">
+                          <li>VMware/VirtualBox</li>
+                          <li>Kali Linux</li>
+                          <li>Ghidra</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Right Hand Side Elements-->
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0">
+
+                  <!--About Me, Resume, and Socials-->
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      <b>About me</b> 
+                      <div class="socials">
+                        <ul>
+                          <li><a href="https://www.linkedin.com/in/sean-yue-30/" target = "_blank"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                          <li><a href="https://github.com/syue40" target = "_blank"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
+                          <li><a href="https://www.instagram.com/seanyue30/" target = "_blank"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                          <li><a href="https://www.facebook.com/sean.yue.5/" target = "_blank"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
+                        </ul>
+                      </div>
+                      <button id="myBtn">My Resume</button>
+                      <div id="myModal" class="modal">
+                        <div class="modal-content">
+                          <div class="close">&times;</div>
+                        <embed src="docs/Resume_Sean_Yue.pdf" id="myResume"/>
+                        </div>
+                      </div>
+                      <a class="ml-2" id="download_button" href="docs/Resume_Sean_Yue.pdf" download><span class="ion-ios-download-outline"></a>
+                    </h5>
+                  </div>
+
+                  <!--Short Bio/Profile-->
+                  <div class="shadow p-3 mb-5 bg-white rounded" style="z-index:0; background-color: white; border-radius: 10px;">
+                    <p class="lead" style="font-size: 1.2rem; padding-left: 20px; padding-right: 20px; padding-top: 15px;">
+                      &#x1F44BHello, I'm Sean Yue. I am currently a student in BCIT's CST Diploma program. I'm passionate about learning, and meeting new people. I love learning from others as their help enables me to approach problems from multiple perspectives.
+                    </p>
+                    <p class="lead" style="font-size: 1.2rem; padding-left: 20px; padding-right: 20px; padding-bottom: 15px">
+                      When I'm not at the gym or learning a new recipe, I can be found at my desk painting new Warhammer miniatures, playing Steam games with friends, or watching coding tutorials on Youtube.
+                    </p>
+                    <p class="lead" style="font-size: 1.2rem; padding-left: 20px; padding-right: 20px; padding-bottom: 15px">
+                      Aside from my courses at BCIT, I'm also enrolled in IBM's Cybersecurity Analyst certification course, as well as Udemy's Ethical Hacking from Scratch. I love all things cybersecurity, particularly the idea of manipulating a machine to do something unexpected. As a passion project, I'm currently learning how to use Kali Linux and Metasploit for pen-testing.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Qualifications-->
+  <section id="experience">
+    <!--Work Experiences-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Work Experience 
+            </h3>
+            <div class="line-mf"></div>
+            <div class="ion-ios-arrow-down" data-toggle="collapse" data-target="#demo" id="expandButton"></div>
+          </div>
+        </div>
+      </div>
+      <div id="demo" class="collapse">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="experiences-box">
+              <div class="experience-ico">
+                <span class="ico-circle"><i class="ion-erlenmeyer-flask"></i></span>
+              </div>
+              <div class="experience-content">
+                <h2 class="s-title">Laboratory Biologist<br><span style="font-size: 0.9rem">Sept '19 - Aug '20</span></h2>
+                <p class="s-description text-center">
+                  Worked in a team to perform toxicology tests on water and sediment samples. Collected test data and used statistical analysis software to analyze test results. Compiled results into official reports for clients. QA/QC'd reports.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="experiences-box">
+              <div class="experience-ico">
+                <span class="ico-circle"><i class="ion-stats-bars"></i></span>
+              </div>
+              <div class="experience-content">
+                <h2 class="s-title">Research Assistant<br><span style="font-size: 0.9rem">June '18 - Apr '19</span></h2>
+                <p class="s-description text-center">
+                  Planted, maintained, and harvested California invasive plant species <i>B. madritensis</i>. Assisted PI with research on how global warming affected invasive species spread. Used bright field microscopy to visualize plant samples in control and experimental groups.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="experiences-box">
+              <div class="experience-ico">
+                <span class="ico-circle"><i class="ion-ios-medkit"></i></span>
+              </div>
+              <div class="experience-content">
+                <h2 class="s-title">Care Extender<br><span style="font-size: 0.9rem">Sept '16 - June '17</span></h2>
+                <p class="s-description text-center">
+                  Worked at Santa Monica and Ronald Reagan hospitals, in the geriatric and orthopaedic wards. Assisted nurses with patient care, transport, and medication administration.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!--Education-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Education
+            </h3>
+            <div class="line-mf"></div>
+            <div class="ion-ios-arrow-down" data-toggle="collapse" data-target="#demo1" id="expandButton"></div>
+          </div>
+        </div>
+      </div>
+      <div id="demo1" class="collapse">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="experiences-box">
+              <div class="experience-ico">
+                <span class="ico-circle"><i class="ion-monitor"></i></span>
+              </div>
+              <div class="experience-content">
+                <h2 class="s-title">BCIT CST <br><span style="font-size: 0.9rem">Sept. '20 - June '22</span></h2>
+                <p class="s-description text-center">
+                  CST Dipl. Hands on experience working with Python, Java, Javascript, CSS, HTML. Lab experience with Firebase, Agile, MongoDB, and Node.js.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" >
+            <div class="experiences-box">
+              <div class="experience-ico">
+                <span class="ico-circle"><i class="ion-university"></i></span>
+              </div>
+              <div class="experience-content">
+                <h2 class="s-title">UCLA Molecular Biology<br><span style="font-size: 0.9rem">Sept. '15 - June '19</span></h2>
+                <p class="s-description text-center">
+                  B.Sc with an emphasis in human developmental and stem cell biology. Wet lab experience with PCR, cell culture, aseptic technique, and bacterial transformation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Projects-->
+  <section  class="portfolio-mf sect-pt4 route">
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(img/background_w8.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a" id="work" >
+              My Projects
+            </h3>
+            <p class="subtitle-a">
+              A collection of projects I have been working on.
+            </p>
+            <div class="line-mf"></div>
+            <div id="projectsMargin" ></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="work-box">
+            <div class="work-img">
+              <img src="img/work-1.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="work-content justify-content-center text-center">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="w-title">OneStop <div id="expandGit" style="display:inline-block"><a  class="ion-social-github-outline" href="https://github.com/syue40" target="_blank" style="font-size:1.6rem;"></a></div></h2>
+                  <div class="w-more">
+                    <span class="w-category">Html, CSS, Javascript</span> / <i>Ongoing</i>
+                    <br><br>
+                    <p>A simple application I made for nights out with friends after COVID! This app will let you check the weather, calculate tips, and kill time with Tic-Tac-Toe. Also has links for taxis/uber.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <div class="work-img">
+              <img src="img/work-6.gif" alt="" class="img-fluid">
+            </div>
+            <div class="work-content justify-content-center text-center">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="w-title">A* Pathfinder <div id="expandGit" style="display:inline-block"><a  class="ion-social-github-outline" href="https://github.com/syue40/A_Star" target="_blank" style="font-size:1.6rem;"></a></div></h2>
+                  <div class="w-more">
+                    <span class="w-category">Python</span> / <i>Jan. '21</i> / <a class="w-link" href="https://youtu.be/1LkEcR8S370" target="_blank">Demo</a> 
+                    <br><br>
+                    <p>A program made in PyGame which uses the A* informed search algorithm to find the shortest path between two points in a grid.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <div class="work-img">
+              <img src="img/work-5.gif" alt="" class="img-fluid">
+            </div>
+            <div class="work-content justify-content-center text-center">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="w-title">Omok! <div id="expandGit" style="display:inline-block"><a  class="ion-social-github-outline" href="https://github.com/syue40/Omok_1.0" target="_blank" style="font-size:1.6rem;"></a></div></h2>
+                  <div class="w-more">
+                    <span class="w-category">Python</span> / <i>Dec. '20</i> / <a class="w-link" href="https://youtu.be/5W2xBoF6O2A" target="_blank">Demo</a>
+                    <br><br>
+                    <p>Connect five for two players, played on the traditional Go board. Made with PyGame.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <div class="work-img">
+              <img src="img/work-2.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="work-content justify-content-center text-center">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="w-title">Hack Log <div id="expandGit" style="display:inline-block"><a  class="ion-social-github-outline" href="https://github.com/syue40/KeyLogger" target="_blank" style="font-size:1.6rem;"></a></div></h2>
+                  <div class="w-more">
+                    <span class="w-category">Python</span> / <i>Ongoing</i>
+                    <br><br>
+                    <p>A python repository containing simplified versions of various hacks. Current work: simple keylogger that writes to notepad, trojan horse which can use commandline on target computer, and a packet sniffer to detect username/password combinations sent to non secured websites </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <div class="work-img">
+              <img src="img/work-3.gif" alt="" class="img-fluid">
+            </div>
+            <div class="work-content justify-content-center text-center">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="w-title">YAHTZEE! <div id="expandGit" style="display:inline-block"><a  class="ion-social-github-outline" href="https://github.com/syue40/YAHTZEE" target="_blank" style="font-size:1.6rem;"></a></div></h2>
+                  <div class="w-more">
+                    <span class="w-category">Python</span> / <i>Dec. '20</i> / <a class="w-link" href="https://youtu.be/jMooyjXy9Jw" target="_blank">Demo</a>
+                    <br><br>
+                    <p>A simple terminal based Yahtzee game, which allows the user to play with 2 people.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <div class="work-img" >
+              <img src="img/work-4.gif" alt="" class="img-fluid" >
+            </div>
+            <div class="work-content justify-content-center text-center">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="w-title">Library Manager <div id="expandGit" style="display:inline-block"><a  class="ion-social-github-outline" href="https://github.com/syue40/Books_Manager" target="_blank" style="font-size:1.6rem;"></a></div></h2>
+                  <div class="w-more">
+                    <span class="w-category">Python</span> / <i>Nov. '20</i> / <a class="w-link" href="https://youtu.be/6-ShM6VNi7Y" target="_blank">Demo</a>
+                    <br><br>
+                    <p>A python program which manages a text file containing 1000+ books and their details. The library manager allows users to move books from shelf to shelf or search up where they are located.</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="w-like">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Contact Info-->
+  <section>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-8 justify-content-center">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full" style="z-index:0;">
+              <div class="row">
+                <div class="col-md-12 text-center justify-content-center">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h3 class="title-a" style="color: #00075c; font-size: 1.5rem">
+                      Contact Info
+                    </h3>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+                     Please reach out if you have any questions. My number and email are listed below. Thanks for stopping by!
+                    </p>
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span> Vancouver, British Columbia</li>
+                      <li><span class="ion-email"></span> syue11@my.bcit.ca</li>
+                      <br>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Back to Top Button-->
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!--Preloader-->
+  <div id="preloader"></div>
+
+  <!--Scripts-->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
